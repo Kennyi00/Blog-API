@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const userRoutes = require('./routes/userRoutes')
 const postRoutes = require('./routes/postRoutes')
@@ -9,4 +10,4 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/user', userRoutes)
 app.use('/post',postRoutes)
 
-module.exports = app
+module.exports = app 
