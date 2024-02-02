@@ -1,5 +1,6 @@
 # BLOG-API
 This is a Blog Application, a example showcasing RESTFUL Api using MongoDB.
+User will be able to create, update, and delete an Account as well as update, delete, and create a Post.
 
 This application is divided into two main parts, Users and Posts. 
 Each part has it's own similiar but different test file. 
