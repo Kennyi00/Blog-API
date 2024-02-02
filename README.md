@@ -6,11 +6,15 @@ This application is divided into two main parts, Users and Posts.
 Each part has it's own similiar but different test file. 
 
 # Step by Step Process
- Go to where the directory will be stored within your computer.
- Clone the repo into your computer by using "git clone *ssh link*"
- Once the directory is cloned run "npm i" in the command line to get every installation in my package.json.
- While in the Root Folder "touch .env" and add your own unique connection string.
- Still in the .env file include a secret SHA256 key.
+1. Go to where the directory will be stored within your computer.
+ 
+2. Clone the repo into your computer by using "git clone *ssh link*"
+ 
+3. Once the directory is cloned run "npm i" in the command line to get every installation in my package.json.
+ 
+4. While in the Root Folder "touch .env" and add your own unique connection string.
+ 
+5. Still in the .env file include a secret SHA256 key.
 
 
  # Running Test's
